@@ -4,7 +4,8 @@ agent any
 
 stages{
      
-      stage("Maven Build i "){
+
+      stage("Maven Build for multi"){
            when{
                 branch "develop"
            }
